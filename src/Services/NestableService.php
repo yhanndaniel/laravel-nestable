@@ -341,6 +341,9 @@ class NestableService
                 // Get the label text
                 $label = $child_item[$this->config['dropdown']['label']];
 
+                // Get the data taype
+                $dataType = $child_item[$this->config['dropdown']['data-type']];
+
                 $prefix = $this->config['dropdown']['prefix'];
 
                 // Generating nest level
@@ -350,7 +353,7 @@ class NestableService
                 $selected = $this->doSelect($value, $label);
 
                 // Generating dropdown item
-                $childItems .= '<option '.$selected.' value="'.$value.'">'.$levels.$prefix.$label.'</option>';
+                $childItems .= '<option '.$selected.' value="'.$value.'" data-type="'.$dataType.'">'.$levels.$prefix.$label.'</option>';
 
                 $item_id = $child_item[$this->config['primary_key']];
 

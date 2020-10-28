@@ -1,17 +1,15 @@
 {
-    "name": "webreinvent/laravel-nestable",
+    "name": "yhanndaniel/laravel-nestable",
     "type": "library",
     "description": "Laravel 6 nested categories library",
     "version": "0.0.1",
-    "homepage": "https://github.com/webreinvent",
+    "homepage": "https://github.com/yhanndaniel",
     "keywords": ["nested","nestable","nestedset","category","laravel"],
     "license": "MIT",
     "authors": [
         {
-            "name": "WebReinvent",
-            "email": "we@webreinvent.com",
-            "homepage": "https://www.webreinvent.com",
-            "role": "Maintainer"
+            "name": "Yhann Daniel",
+            "email": "yhanndaniel@gmail.com"            
         }
     ],
     "require": {

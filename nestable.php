@@ -17,6 +17,7 @@ return [
     'dropdown' => [
         'prefix' => '',
         'label' => 'name',
-        'value' => 'id'
+        'value' => 'id',
+        'data-type' => 'product_type_id'
     ]
 ];
